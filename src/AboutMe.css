@@ -1,0 +1,64 @@
+.about-me{
+    margin:2em 2em;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 12px 12px;
+}
+
+.avatar {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.name{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: start;
+    color: #4F4F4F;
+    padding-top: 12px;
+}
+
+.job{
+    font-family: Montserrat;
+    font-size: 18px;
+    text-align: start;
+    color: #828282;
+    margin-bottom: 18px;
+}
+
+.contact-mail{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-mail > a {
+    margin: 0;
+    font-family: Montserrat;
+    padding: 16px 0 0 12px;
+    text-decoration: none;
+    color: #4F4F4F;
+}
+
+.contact-number{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-number > a {
+    font-family: Montserrat;
+    padding: 16px 0 0 12px;
+    text-decoration: none;
+    color: #4F4F4F;
+}
+
+.introduction{
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #828282;
+    text-align: start;
+    padding-top: 12px;
+}

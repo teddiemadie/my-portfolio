@@ -1,0 +1,21 @@
+.front-end-skill{
+    display: flex;
+    position: relative;
+}
+
+.skill-name{
+    text-align: start;
+    font-family: Montserrat;
+    padding-bottom: 18px;
+}
+
+.rectangle {
+    height: 10px;
+    width: 150px;
+    background-color: #C4C4C4;
+    border-radius: 12px;
+    position: absolute;
+    left: 35%;
+    margin-top: 3px;
+    /* z-index: -1; */
+}

@@ -1,38 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Kaisei+Decol');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 .App {
-  text-align: center;
+  text-align: left;
+  padding: 20px 20px;
+  background-color: #F2F2F2;
+  /* opacity: 0.5; */
+  z-index: -2;
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  /* background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p,a{
+  margin: 0;
+  font-family: Montserrat;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.left{
+  flex: 0.35;
+  /* flex-grow: 1; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.right{
+  flex: 0.7;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* flex-grow: 1; */
+  /* flex-grow: 3; */
 }
 
-.App-link {
-  color: #61dafb;
+.skill-set{
+  display: flex;
+  flex-direction: row;
+  /* flex-grow: 1; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.background{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+
+.front-end-skills {
+  flex: 0.5;
+  /* flex-grow: 1; */
+}
+
+.back-end-skills {
+  flex: 0.5;
+  flex-grow: 1;
+}
+
+
+
+@media screen and (max-width:1080px) {
+  .App{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    /* flex-wrap: wrap; */
   }
-  to {
-    transform: rotate(360deg);
+
+  .left {
+    /* flex: 1; */
+    align-self: center;
+  }
+
+  .skill-set{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+  }
+
+  .front-end-skills{
+    width: auto;
+  }
+
+  .project{
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+@media screen and (max-width:600px){
+  .background{
+    flex-direction: column;
   }
 }

@@ -1,0 +1,18 @@
+.front-end-skills{
+    margin:2em 2em;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 12px 12px;
+    /* width: 260px; */
+    height: fit-content;
+    flex-grow: 1;
+}
+
+.front-end-skills > p{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 24px;
+}

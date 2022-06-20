@@ -1,0 +1,37 @@
+h1,p {
+    margin: 0;
+    font-family: 'Kaisei Decol';
+}
+
+.header {
+    display: flex;
+    position: -webkit-sticky; /*Safari*/
+    position: sticky;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    padding: 8px;
+    font-family: 'Kaisei Decol';
+    color: #000000B3;
+}
+
+.text-left {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.text-right {
+    display: flex;
+    flex-direction: row; 
+}
