@@ -8,6 +8,7 @@ function Project({img,name,desc,tag,demo_link,code_link,note}) {
             <img 
                 className='project-img'
                 src={img}
+                alt='project'
             />
 
         </div>

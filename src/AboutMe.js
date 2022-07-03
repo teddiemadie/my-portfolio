@@ -7,7 +7,7 @@ import Avatar from './img/avatar.jpg';
 function AboutMe() {
   return (
     <div className='about-me'>
-        <img src={Avatar} className='avatar'/>
+        <img alt='avatar' src={Avatar} className='avatar'/>
         <div className='about-me-container'>
           <p className='name'>Teddie</p>
           <p className='job'>Front-end Developer</p>

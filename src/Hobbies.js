@@ -2,7 +2,7 @@ import React from 'react'
 import './Hobbies.css'
 import Hobby from './Hobby'
 import Baking from './img/baking.jpeg'
-import Traveling from './img/traveling.jpeg'
+// import Traveling from './img/traveling.jpeg'
 
 function Hobbies() {
   return (
