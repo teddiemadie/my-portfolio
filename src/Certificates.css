@@ -55,3 +55,17 @@ button:hover {
 .round {
     border-radius: 50%;
 }
+
+.slide-animation{
+    animation: anim 1s forwards;
+}
+
+@keyframes anim {
+  0% {
+  transform: translateX(0px);
+  }
+
+  100% {
+  transform: translateX(300px);
+  }
+}

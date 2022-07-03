@@ -7,10 +7,10 @@
     border-radius: 12px;
 }
 
-/* .hobbies-container {
+.hobbies-container {
     display: flex;
     flex-direction: column;
-} */
+}
 
 .hobbies > p{
     font-family: Montserrat;
@@ -20,6 +20,9 @@
     padding: 16px 12px;
 }
 
-@media screen and (min-width:1000px) {
+@media screen and (max-width:1080px) and (min-width:750px) {
+    .hobbies-container{
+        flex-direction: row;
+    }
 
 }

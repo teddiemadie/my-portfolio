@@ -62,3 +62,18 @@
     text-align: start;
     padding-top: 12px;
 }
+
+@media screen and (max-width:1080px) and (min-width:750px) {
+    .about-me{
+        flex-direction: row;
+    }
+
+    .about-me-container{
+        margin-left: 10px;
+    }
+
+    .avatar{
+        max-width: 300px;
+    }
+}
+

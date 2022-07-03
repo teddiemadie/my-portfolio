@@ -17,22 +17,25 @@ function Projects() {
                 tag={['#React']}
                 demo_link={'https://clone-ec8fa.web.app/'}
                 code_link={'https://github.com/teddiemadie/amazon-clone.git'}
+                note
             />
             <Project
                 img={WeatherApp}
                 name={'Weather App'}
-                desc={'html、CSS、Javascript（react）の基礎を学んだ知識を深めるために、天気情報を確認できるサイトを作りました。無料のAPIから天気情報を取得して、画面に表示するサイトです。初期表示に東京の天気を確認できます。他の地域の天気に変更することが可能です。※サンプルを見る前に、APIの利用を申請する必要があります。'}
+                desc={'無料のAPIから天気情報を取得して、画面に表示するサイトです。初期表示に東京の天気を確認できます。他の地域の天気に変更することが可能です。'}
                 tag={['#React']}
                 demo_link={'https://weather-app-aba93.web.app/'}
                 code_link={'https://github.com/teddiemadie/weather-app.git'}
+                note={['※サンプルを見る前に、',<a href='https://cors-anywhere.herokuapp.com/corsdemo'>外部API</a>,'にアクセスしたあとに、',<strong>Request temporary access to the demo server</strong>,'のボタンを押下する必要があります。']}
             />
             <Project
                 img={CountryQuiz}
                 name={'Country Quiz'}
-                desc={'In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. '}
+                desc={'国についてのAPIに呼び出し、クイズゲームを作りますした。答えが当てはまるかどうか確かめられる一方、答えがあっていないと、リトライすることも可能です。'}
                 tag={['#React','#HTML','#CSS']}
                 demo_link={'https://country-quiz-59eae.web.app/'}
                 code_link={'https://github.com/teddiemadie/country-quiz.git'}
+                note
             />
 
         </div>

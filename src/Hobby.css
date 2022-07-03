@@ -23,3 +23,10 @@
     text-align: left;
     padding-bottom: 26px;
 }
+
+@media screen and (max-width:1080px) and (min-width:750px) {
+    .hobby{
+        flex:0.5;
+    }
+    
+}

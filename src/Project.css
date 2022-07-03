@@ -14,7 +14,7 @@
 }
 .project-img{
     width: 100%;
-    max-width: 300px;
+    max-width: 350px;
     min-width: 200px;
     height: auto;
     border-radius: 8px;
@@ -43,6 +43,23 @@
 .project-description{
     color: #828282;
 }
+
+.project-note{
+    font-size: 12px;
+    color: #828282;
+}
+
+.project-note > a{
+    color: #4F4F4F;
+    font-weight: 600;
+}
+
+.project-note > strong {
+    background-color: rgba(135,131,120,0.15);
+    color: #EB5757;
+    border-radius: 3px;
+}
+
 .flex-start{
     align-self: flex-start;
     margin-top: 10px;
@@ -79,9 +96,13 @@
     color: #2F80ED;
 }
 
-@media screen and (max-width:1080px) {
+@media screen and (max-width:550px) {
     .project{
         display: flex;
         flex-direction: column;
+    }
+
+    .project-img{
+        max-width: 420px;
     }
 }

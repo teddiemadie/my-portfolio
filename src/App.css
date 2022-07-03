@@ -55,7 +55,7 @@ p,a{
 
 
 
-@media screen and (max-width:1080px) {
+@media screen and (max-width:1080px){
   .App{
     display: flex;
     flex-direction: column;
@@ -83,6 +83,12 @@ p,a{
     flex-direction: column;
   }
 
+}
+
+@media screen and (max-width:1080px) and (min-width:750px) {
+  .skill-set{
+    flex-direction: row;
+  }
 }
 
 @media screen and (max-width:600px){
