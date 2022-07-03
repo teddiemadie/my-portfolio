@@ -10,7 +10,7 @@ function AboutMe() {
         <img src={Avatar} className='avatar'/>
         <div className='about-me-container'>
           <p className='name'>Teddie</p>
-          <p className='job'>Front-end Student</p>
+          <p className='job'>Front-end Developer</p>
           <div className='contact-mail'>
               <EmailIcon style={{marginTop: '12px'}}/>
               <a href='mailto:ducanhtran212@gmail.com'>ducanhtran212@gmail.com</a>
